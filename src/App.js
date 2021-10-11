@@ -1,11 +1,12 @@
 import {useState} from 'react';
+import Sidebar from './components/sidebar/Sidebar';
 
 import './App.css';
 
 const App = () => {
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const openSidbar = () => {
+  const openSidebar = () => {
     setSidebarOpen(true);
   };
   const closeSidebar = () => {
@@ -13,10 +14,9 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="container">
          <h1>Dashboard Strateegia</h1>
-      </header>
+      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar}/>
     </div>
   );
 }
