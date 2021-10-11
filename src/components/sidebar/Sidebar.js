@@ -6,7 +6,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <div className={sidebarOpen ? "sidebar-responsive" : "" } id="sidebar">
             <div className="sidebar__title">
                 <div className="sidebar__img">
-                    <img src={logo} alt="logo" />
+                    <img src="logo.png" alt="logo" />
                     <h1>Strateegia Journey</h1>
                 </div>
                 <i
