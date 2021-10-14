@@ -1,4 +1,7 @@
 import "./Navbar.css";
+import {FaSearch} from 'react-icons/fa';
+import {FiLogOut} from 'react-icons/fi';
+
 
 
 const Navbar = ({sidebarOpen, openSidebar}) => {
@@ -8,19 +11,19 @@ const Navbar = ({sidebarOpen, openSidebar}) => {
                 <i className="fa fa-bars"></i>
             </div>
             <div className="navbar__left">
-                <a href="#">Subscribers</a>
-                <a href="#">Video Management</a>
-                <a className="active_link" href="#">Admin</a>
+                <a href="#">Apoie os desenvolvedores</a>
+                <a href="#">Strateegia</a>
+                <a className="active_link" href="#">Dashboard</a>
             </div>
             <div className="navbar__right">
                  <a href="#">
-                    <i className="fa fa-search"></i>
+                    <FaSearch />
                  </a>
                  <a href="#">
-                    <i className="fa fa-clock-o"></i>
+                    <FiLogOut/>
                  </a>
                  <a href="#">
-                    <img width="30" src={"logo.png"} alt="logo" />
+                    <img  width="30" src={"logo.png"} alt="logo" className="icone"/>
                  </a>   
             </div>
         </nav>

@@ -27,8 +27,8 @@
 }
 
 .navbar__left .active_link {
-    color:#265acc;
-    border-bottom: 3px solid #265acc;
+    color:#196edd;
+    border-bottom: 3px solid #196edd;
     padding-bottom: 12px;
 }
 
@@ -41,10 +41,11 @@
 .navbar__right > a {
     margin-left:20px;
     text-decoration: none;
+    color: #196edd;
 }
 
 .navbar__right > a > i {
-    color: #a5aaad;
+    color: #196edd;
     font-size:16px;
     border-radius: 50px;
     background: #ffffff;
@@ -52,6 +53,9 @@
     padding: 7px;
 }
 
+.icone {
+    border-radius: 50%;
+}
 /* Responsiviness right here */
 
 @media only screen and (max-width: 978px) { 

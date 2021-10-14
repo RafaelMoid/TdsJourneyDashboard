@@ -1,10 +1,15 @@
 #sidebar {
-    background: #020509;
+    background: #196edd;
     grid-area: sidebar;
     overflow-y: auto;
     padding: 20px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 55px;
 }
 
 .sidebar__title {
@@ -20,8 +25,8 @@
     align-items: center;
 }
 
-.siderbar__title img {
-    width: 55px;
+.siderbar__title > div > img {
+    
     object-fit: contain;
     border-radius: 50%;
 }
@@ -38,7 +43,7 @@
 }
 
 .sidebar__menu > h2 {
-    color: #3ea175;
+    color: #ffffff;
     font-size:16px;
     margin-top:15px;
     margin-bottom:5px;
@@ -47,31 +52,26 @@
 }
 
 .sidebar__link {
-    color:#f3f4f6;
+    color:#ffffff;
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 5px;
 }
 
 .active_menu_link{
-    background: rgba(62,161,117,0.3);
-    color: #3ea175;
+    background: #ffffff;
+    color: #196edd;
 }
 
 .active_menu_link a {
-    color: #3ea175 !important;
+    color: #196edd !important;
 }
 
 .sidebar__link > a {
-    text-decoration: none;color: #a5aaad;
+    text-decoration: none;color: #ffffff;
     font-weight: 700;
 }
 
-.sidebar__link a:focus {
-    padding:7px;
-    background: rgba(62,161,117,0.3);
-    border-radius: 3px;
-} 
 
 .sidebar__link > i {
     margin-right: 10px;

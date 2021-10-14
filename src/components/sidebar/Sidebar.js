@@ -13,7 +13,7 @@ const Sidebar = ({sidebarOpen, closeSidebar}) => {
         <div className={sidebarOpen ? "sidebar-responsive" : "" } id="sidebar">
             <div className="sidebar__title">
                 <div className="sidebar__img">
-                    <img src={"logo.png"} alt="logo" />
+                    <img src={"image4.png"} alt="logo" className="logo" />
                     <h1>Strateegia Dashboard</h1>
                 </div>
                 < AiOutlineCloseSquare
@@ -49,9 +49,9 @@ const Sidebar = ({sidebarOpen, closeSidebar}) => {
                     <FiInfo/>
                     <a href="#"> Guias</a>
                 </div>
-                <div className="sidebar__link">
+                <div className="sidebar__logout">
                     < FaPowerOff />
-                    <a href="#"> Sign Out</a>
+                    <a href="#" > Sign Out</a>
                 </div>
             </div>
 
