@@ -19,7 +19,7 @@ const Chart = () => {
     return (
         <div style={{marginTop:'15px'}}>
             <XYPlot height={300} width={300}>
-            <verticalGridLines />
+            <VerticalGridLines />
             <HorizontalGridLines /> 
             <XAxis />
             <YAxis /> 
