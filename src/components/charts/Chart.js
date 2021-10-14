@@ -1,4 +1,4 @@
-import "../../../node-modules/react-vis/dist/style.css";
+import "./style.css";
 import {XYPlot, LineSeries, XAxis, YAxis, VerticalGridLines, HorizontalGridLines} from 'react-vis';
 
 const Chart = () => {

@@ -1,4 +1,4 @@
-//import "./Main.css";
+import "./Main.css";
 import Chart from "../charts/Chart";
 import {FiLogOut} from 'react-icons/fi';
 import {HiOutlineDocumentReport} from 'react-icons/hi';
