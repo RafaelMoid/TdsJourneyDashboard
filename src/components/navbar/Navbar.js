@@ -11,9 +11,9 @@ const Navbar = ({sidebarOpen, openSidebar}) => {
                 <i className="fa fa-bars"></i>
             </div>
             <div className="navbar__left">
-                <a href="#">Apoie os desenvolvedores</a>
-                <a href="#">Strateegia</a>
                 <a className="active_link" href="#">Dashboard</a>
+                <a href="#" className="strateegiaLink">Strateegia</a>
+                <a href="#" className="apoie">Desenvolvedores</a>
             </div>
             <div className="navbar__right">
                  <a href="#">

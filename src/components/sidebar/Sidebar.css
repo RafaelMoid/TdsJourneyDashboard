@@ -12,6 +12,10 @@
     width: 55px;
 }
 
+.closeIcon {
+    display: none;
+}
+
 .sidebar__title {
     display: flex;
     justify-content: space-between;
@@ -112,5 +116,9 @@
         display: inline;
     }
 
+    .closeIcon {
+        display: flex;
+    }
 
+    
 }

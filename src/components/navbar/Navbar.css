@@ -62,10 +62,17 @@
     .nav_icon {
         display: inline;
     }
+
+    .strateegiaLink {
+    display: none;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
     .navbar__left{
         display: none;
     }
+
+    
 }

@@ -17,7 +17,7 @@ const Sidebar = ({sidebarOpen, closeSidebar}) => {
                     <h1>Strateegia Dashboard</h1>
                 </div>
                 < AiOutlineCloseSquare
-                className="fa fa-times" 
+                className="closeIcon" 
                 id="sidebarIcon" 
                 onClick={() => closeSidebar()} />
             </div>

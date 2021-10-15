@@ -1,8 +1,9 @@
 import "./Main.css";
 import Chart from "../charts/Chart";
-import {FiLogOut} from 'react-icons/fi';
+import {FiLogOut,FiPlus} from 'react-icons/fi';
 import {HiOutlineDocumentReport} from 'react-icons/hi';
-import {AiOutlineFundProjectionScreen} from 'react-icons/ai';
+import {FaUserAstronaut} from 'react-icons/fa';
+
 
 
 
@@ -12,7 +13,6 @@ const Main = () => {
         <main>
             <div className="main__container">
                 <div className="main_tittle">
-                    <img src={"logo.png"} alt="logo" />
                     <div className="main__greeting">
                         <h1>Hello Edward Elric</h1>
                         <p>Seja bem vindo ao seu dashboard</p>
@@ -20,7 +20,7 @@ const Main = () => {
                 </div>
                 <div className="main__cards">
                     <div className="card">
-                        <FiLogOut />
+                        
                         <div className="card_inner">
                             <p className="text-primary-p">Projetos em andamento</p>
                             <span className="font-bold text-title">87</span>
@@ -28,7 +28,7 @@ const Main = () => {
                     </div>
 
                 <div className="card">
-                    <FiLogOut />
+                    
                     <div className="card_inner">
                         <p className="text-primary-p">Projetos concluidos</p>
                         <span className="font-bold text-title">127</span>
@@ -36,10 +36,16 @@ const Main = () => {
                 </div>
 
                 <div className="card">
-                    <HiOutlineDocumentReport />
                     <div className="card_inner">
                         <p className="text-primary-p">Relatorios</p>
                         <span className="font-bold text-title">197</span>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card_inner">
+                        <p className="text-primary-p">Pessoas no projeto</p>
+                        <span className="font-bold text-title">5</span>
                     </div>
                 </div>
 
@@ -49,22 +55,41 @@ const Main = () => {
                     <div className="charts__left">
                         <div className="charts__left__title">
                             <div>
-                                <h1>Projeto favoritado</h1>
-                                <p>Investigação dos homunculús</p>
+                                <h1>Projeto mais recente</h1>
+                                <p>Moura fácil</p>
+                                <Chart />
                             </div>
-                            <AiOutlineFundProjectionScreen />
+                            <div className="charts__right">
+                        <div className="charts__right__title">
+                        <div className="charts__right__cards">
+                            
+                            <div className="card1">
+                                <FiPlus/>
+                                <h2>Novo relatório</h2>
+                            </div>
+
+                            <div className="card2">
+                                < HiOutlineDocumentReport />
+                                <h2>Meus relatórios</h2>
+                            </div>
+
+                            <div className="card3">
+                               <h2>Biblioteca de relatórios</h2>
+                            </div>
+
+                            <div className="card4">
+                               <h2>Comparações avançadas</h2>
+                            </div>
                         </div>
-                        <Chart />
+                        </div>
+
+                        
+                    </div> 
+                        </div>
+                        
                     </div> 
 
-                    <div className="charts__right">
-                        <div className="charts__right">
-                            <div>
-                                <h1>Stats Reports</h1>
-                                <p>Recife, Penambuco, Brasil</p>
-                            </div>
-                        </div>
-                    </div>  
+                     
                 </div>               
             </div>
         </main>
