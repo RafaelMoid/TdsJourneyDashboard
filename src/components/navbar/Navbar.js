@@ -12,7 +12,7 @@ const Navbar = ({sidebarOpen, openSidebar}) => {
             </div>
             <div className="navbar__left">
                 <a className="active_link" href="#">Dashboard</a>
-                <a href="#" className="strateegiaLink">Strateegia</a>
+                <a href="https://strateegia.digital/pt" target="_blank" className="strateegiaLink">Strateegia</a>
                 <a href="#" className="apoie">Desenvolvedores</a>
             </div>
             <div className="navbar__right">

@@ -2,7 +2,9 @@ import "./Main.css";
 import Chart from "../charts/Chart";
 import {FiLogOut,FiPlus} from 'react-icons/fi';
 import {HiOutlineDocumentReport} from 'react-icons/hi';
-import {FaUserAstronaut} from 'react-icons/fa';
+import { MdLibraryBooks } from 'react-icons/md';
+import { AiOutlineBarChart } from 'react-icons/ai';
+
 
 
 
@@ -15,7 +17,7 @@ const Main = () => {
                 <div className="main_tittle">
                     <div className="main__greeting">
                         <h1>Hello Edward Elric</h1>
-                        <p>Seja bem vindo ao seu dashboard</p>
+                        <p>Seja bem vindo ao seu dashboard</p> 
                     </div>
                 </div>
                 <div className="main__cards">
@@ -64,20 +66,22 @@ const Main = () => {
                         <div className="charts__right__cards">
                             
                             <div className="card1">
-                                <FiPlus/>
+                                <FiPlus size={60}/>
                                 <h2>Novo relatório</h2>
                             </div>
 
                             <div className="card2">
-                                < HiOutlineDocumentReport />
+                                < HiOutlineDocumentReport size={60}/>
                                 <h2>Meus relatórios</h2>
                             </div>
 
                             <div className="card3">
+                                <MdLibraryBooks size={60} />
                                <h2>Biblioteca de relatórios</h2>
                             </div>
 
                             <div className="card4">
+                                <AiOutlineBarChart size={60}/>
                                <h2>Comparações avançadas</h2>
                             </div>
                         </div>

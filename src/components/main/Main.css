@@ -24,14 +24,14 @@ main {
     font-size: 24px;
     color:#196edd;
     margin-bottom: 5px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .main__greeting > p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: #a5aaad;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .main__cards {
@@ -161,8 +161,9 @@ main {
     text-align: center;
     padding: 25px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     width: 200px;
+    height: 100px;
 }
 
 .card2 {
@@ -171,8 +172,9 @@ main {
     text-align: center;
     padding: 25px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     width: 200px;
+    height: 100px;
 }
 
 .card3 {
@@ -183,6 +185,7 @@ main {
     border-radius: 5px;
     font-size: 14px;
     width: 200px;
+    height: 100px;
 }
 
 .card4 {
@@ -193,6 +196,7 @@ main {
     border-radius: 5px;
     font-size: 14px;
     width: 200px;
+    height: 100px;
 }
 
 @media only screen and (max-width) {
