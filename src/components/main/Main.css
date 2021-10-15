@@ -95,12 +95,14 @@ main {
     font-size:24px;
     color:#196edd;
     margin-bottom: 5px;
+    margin-left: 30px;
 }
 
 .charts__left__title > div > p {
     font-size:20px;
     color: #a5aaad;
     font-weight: 700;
+    margin-left: 30px;
 }
 
 .charts__left__title > i {
